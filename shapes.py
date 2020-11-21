@@ -27,6 +27,7 @@ def spring(turtle, color, size, angle, x, y):
     turtle.color(color)
     turtle.goto(x, y)  # перемещение по координатам
 
+    turtle.down()
     for i in range(500):
         turtle.fd(size)
         turtle.lt(angle)

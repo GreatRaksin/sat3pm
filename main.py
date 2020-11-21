@@ -16,6 +16,6 @@ square(t, 'orange', 75, 50, 50)
 square(t, 'red', 75, -50, -50)
 square(t, 'yellow', 75, 150, 150)
 
-
+spring(turtle=t, color='#985cff', size=10, angle=60, x=-100, y=-100)
 
 done()
