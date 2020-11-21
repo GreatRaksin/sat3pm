@@ -18,8 +18,21 @@ t.up()
 minutes = int(input('Введите число: '))
 
 if minutes % 2 == 0:
-    print('Зеленый')
+    t.goto(0, -140)
+    t.down()
+    t.fillcolor('green')
+    t.begin_fill()
+    t.circle(35)
+    t.end_fill()
+    t.up()
+
 else:
-    print('Красный')
+    t.goto(0, -30)
+    t.down()
+    t.fillcolor('red')
+    t.begin_fill()
+    t.circle(35)
+    t.end_fill()
+    t.up()
 
 done()
