@@ -33,3 +33,17 @@ def spring(turtle, color, size, angle, x, y):
         turtle.lt(angle)
         size += 10
     turtle.up()
+
+
+def rectangle(turtle, color, size, x, y):
+    turtle.up()
+    turtle.color(color)
+    turtle.goto(x, y)
+
+    turtle.down()
+    for i in range(2):
+        turtle.fd(size)
+        turtle.rt(90)
+        turtle.fd(size * 2)
+        turtle.rt(90)
+    turtle.up()
